@@ -11,7 +11,7 @@ bot(
       (message.mention[0] && jidToNum(message.mention[0])) ||
       match ||
       (message.reply_message && jidToNum(message.reply_message.jid))
-    if (!match) return await message.send(`*Example :* truecaller 919876543210`)
+    if (!match) return await message.send(`*Example :* truecaller 254720254797`)
     if (match === 'token') {
       const token = await getTruecaller()
       if (!token) return await message.send(`*Your not logined*`)
