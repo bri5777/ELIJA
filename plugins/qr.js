@@ -5,7 +5,7 @@ const QRReader = require('qrcode-reader')
 bot({ pattern: 'qr ?(.*)', desc: 'Read/Write Qr.', type: 'misc' }, async (message, match) => {
   if (match)
     return await message.sendFromUrl(
-      `https://levanter.onrender.com/gqr?text=${encodeURIComponent(match)}`
+      `https://Elijah.onrender.com/gqr?text=${encodeURIComponent(match)}`
     )
   if (!message.reply_message || !message.reply_message.image)
     return await message.send('*Example : qr test*\n*Reply to a qr image.*')
