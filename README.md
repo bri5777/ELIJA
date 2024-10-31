@@ -1,5 +1,4 @@
-<p align="center">
-<ahref="https://git.io/typing-svg"><img scr=https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=100&size=20&duration=9000&pause=200&random=false&width=535&lines=+MY+NAME+ IS+𝑬𝑳𝑰𝑱𝑨+MD+CREATED+BY+ELIJAH+TECH+Fork+Me+Please" alt="Typing SVG" /><a>
+🇪 🇱 🇮 🇯 🇦 
 A simple WhatsApp User bot.
 
 **SETUP**
