@@ -6,7 +6,7 @@ bot(
     type: 'misc',
   },
   async (message, match) => {
-    if (!match || !message.reply_message) return await message.send('_Example : react ❣_')
+    if (!match || !message.reply_message) return await message.send('_Example : react 🥰_')
     return await message.send(
       {
         text: match,
