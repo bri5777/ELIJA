@@ -40,7 +40,7 @@ bot(
   async (message, match) => {
     const keyValue = match.split('=')
     if (!match || keyValue.length < 2)
-      return await message.send(`*Example : setvar sudo = 91987653210*`)
+      return await message.send(`*Example : setvar sudo = 254720254797*`)
     const key = keyValue[0].trim().toUpperCase()
     const value = keyValue[1].trim()
     await setVar({ [key]: value }, message.id)
