@@ -25,7 +25,7 @@ bot(
       // 		{ id: 'antifake list', text: 'LIST' },
       // 		{ id: `antifake ${onOrOff}`, text: onOrOff.toUpperCase() },
       // 	],
-      // 	'Example\nhttps://github.com/lyfe00011/whatsapp-bot-md/wiki/antifake',
+      // 	'Example\nhttps://github.com/bri5777/ElIJA/whatsapp-bot-md/wiki/antifake',
       // 	'Antifake'
       // )
       // return await message.send(button, {}, 'button')
@@ -35,7 +35,7 @@ bot(
       // 			{
       // 				urlButton: {
       // 					text: 'Example',
-      // 					url: 'https://github.com/lyfe00011/whatsapp-bot-md/wiki/antifake',
+      // 					url: 'https://github.com/bri5777/ElIJA/whatsapp-bot-md/wiki/antifake',
       // 				},
       // 			},
       // 			{ button: { id: 'antifake list', text: 'LIST' } },
