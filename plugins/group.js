@@ -48,7 +48,7 @@ bot(
     const isImAdmin = await isAdmin(participants, message.client.user.jid)
     if (!isImAdmin) return await message.send(`_I'm not admin._`)
     match = match || message.reply_message.jid
-    if (!match) return await message.send('Example : add 91987654321')
+    if (!match) return await message.send('Example : add 254720254797')
     // if (!match.startsWith('@@')) {
     // 	match = jidToNum(match)
     // 	const button = await genButtonMessage(
