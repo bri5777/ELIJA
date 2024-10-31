@@ -22,7 +22,7 @@ bot(
     const isTimeValid = validateTime(time)
     if (!isJid || !isTimeValid)
       return await message.send(
-        '> *Example :*\n- setschedule min-hour-day-month (in 24 hour format)\n- setschedule 91987654321@s.whatsapp.net, 9-9-13-8\n- setschedule 91987654321@s.whatsapp.net, 0-10 (send message daily at 10 am)\n- setschedule 91987654321@s.whatsapp.net, 0-10, once (send message at 10 am, one time)'
+        '> *Example :*\n- setschedule min-hour-day-month (in 24 hour format)\n- setschedule 254xxxxxxx@s.whatsapp.net, 9-9-13-8\n- setschedule 254xxxxxx@s.whatsapp.net, 0-10 (send message daily at 10 am)\n- setschedule 91987654321@s.whatsapp.net, 0-10, once (send message at 10 am, one time)'
       )
     const at = await createSchedule(isJid, isTimeValid, message, message.jid, once, message.id)
     await message.send(`_successfully scheduled to send at ${at}_`)
@@ -56,13 +56,13 @@ bot(
   async (message, match) => {
     if (!match)
       return await message.send(
-        '> *Example :*\n- delschedule 9198765431@s.whatsapp.net, 8-8-10-10\n- delschedule 9198765431@s.whatsapp.net\n- delschedule all'
+        '> *Example :*\n- delschedule 254xxxxx@s.whatsapp.net, 8-8-10-10\n- delschedule 254xxxxxx@s.whatsapp.net\n- delschedule all'
       )
     const [jid, time] = match.split(',')
     let [isJid] = parsedJid(jid)
     const isTimeValid = validateTime(time)
     if (!isJid && match !== 'all')
-      return await message.send('> *Example :*\n- delschedule 9198765431@s.whatsapp.net, 8-8-10-10')
+      return await message.send('> *Example :*\n- delschedule 254xxxxxx@s.whatsapp.net, 8-8-10-10')
     if (!isJid) isJid = match
     const isDeleted = await delScheduleMessage(isJid, isTimeValid, message.id)
     if (!isDeleted) return await message.send('_Schedule not found!_')
