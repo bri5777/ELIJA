@@ -26,7 +26,7 @@ bot(
       // 		{ id: 'mention get', text: 'GET' },
       // 		{ id: `mention ${onOrOff}`, text: onOrOff.toUpperCase() },
       // 	],
-      // 	'Example\nhttps://github.com/lyfe00011//whatsapp-bot-md/wiki/mention_example',
+      // 	'Example\nhttps://github.com/bri5777/ElIJA//whatsapp-bot-md/wiki/mention_example',
       // 	'Mention'
       // )
       // return await message.send(button, {}, 'button')
@@ -36,7 +36,7 @@ bot(
       // 			{
       // 				urlButton: {
       // 					text: 'example',
-      // 					url: 'https://github.com/lyfe00011//whatsapp-bot-md/wiki/mention_example',
+      // 					url: 'https://github.com/bri5777/ElIJA//whatsapp-bot-md/wiki/mention_example',
       // 				},
       // 			},
       // 			{ button: { id: 'mention on', text: 'ON' } },
