@@ -24,7 +24,7 @@ bot(
       // 		{ id: 'antilink info', text: 'INFO' },
       // 		{ id: `antilink ${onOrOff}`, text: onOrOff.toUpperCase() },
       // 	],
-      // 	'Example\nhttps://github.com/lyfe00011/whatsapp-bot-md/wiki/antilink',
+      // 	'Example\nhttps://github.com/EIIJA/whatsapp-bot-md/wiki/antilink',
       // 	'Antilink'
       // )
       // return await message.send(button, {}, 'button')
@@ -34,7 +34,7 @@ bot(
       // 			{
       // 				urlButton: {
       // 					text: 'Example',
-      // 					url: 'https://github.com/lyfe00011/whatsapp-bot-md/wiki/antilink',
+      // 					url: 'https://github.com/EIIJA/whatsapp-bot-md/wiki/antilink',
       // 				},
       // 			},
       // 			{
