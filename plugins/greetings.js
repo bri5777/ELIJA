@@ -23,11 +23,11 @@ bot(
       await message.send(welcome.message)
       const onOrOff = welcome && welcome.enabled ? 'on' : 'off'
       return await message.send(
-        `Welcome is ${onOrOff}\n\nhttps://github.com/lyfe00011/levanter/wiki/Greetings`
+        `Welcome is ${onOrOff}\n\nhttps://github.com/bri5777/ElIJA/Elija/wiki/Greetings`
       )
       // const button = await genButtonMessage(
       // 	[{ id: `welcome ${onOrOff}`, text: onOrOff.toUpperCase() }],
-      // 	'Example\nhttps://github.com/lyfe00011//whatsapp-bot-md/wiki/Greetings',
+      // 	'Example\nhttps://github.com/bri5777/ElIJA//whatsapp-bot-md/wiki/Greetings',
       // 	'Welcome'
       // )
       // return await message.send(button, {}, 'button')
@@ -37,7 +37,7 @@ bot(
       // 			{
       // 				urlButton: {
       // 					text: 'Example',
-      // 					url: 'https://github.com/lyfe00011//whatsapp-bot-md/wiki/Greetings',
+      // 					url: 'https://github.com/bri5777/ElIJA//whatsapp-bot-md/wiki/Greetings',
       // 				},
       // 			},
       // 			{ button: { id: 'welcome on', text: 'ON' } },
@@ -85,7 +85,7 @@ bot(
 
       // const button = await genButtonMessage(
       // 	[{ id: `welcome ${onOrOff}`, text: onOrOff.toUpperCase() }],
-      // 	'Example\nhttps://github.com/lyfe00011//whatsapp-bot-md/wiki/Greetings',
+      // 	'Example\nhttps://github.com/bri5777/ElIJA//whatsapp-bot-md/wiki/Greetings',
       // 	'Goodbye'
       // )
       // return await message.send(button, {}, 'button')
@@ -94,7 +94,7 @@ bot(
       // 		[
       // 			{
       // 				urlButton: {
-      // 					url: 'https://github.com/lyfe00011/whatsapp-bot-md/wiki/Greetings',
+      // 					url: 'https://github.com/bri5777/ElIJA/whatsapp-bot-md/wiki/Greetings',
       // 					text: 'Example',
       // 				},
       // 			},
