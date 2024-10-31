@@ -20,11 +20,11 @@ bot.addCommand(
       return 0
     })
     const [date, time] = getDate()
-    let CMD_HELP = `╭────────────────╮
+    let CMD_HELP = `╭❉ ╤╤╤╤ ✿ ╤╤╤╤ ❉╮
 						ʟᴇᴠᴀɴᴛᴇʀ
-╰────────────────╯
+╰──❉ ╤╤╤╤ ✿ ╤╤╤╤ ❉╯
 
-╭────────────────
+╭❉ ╤╤╤╤ ✿ ╤╤╤╤ ❉
 │ Prefix : ${ctx.PREFIX}
 │ User : ${message.pushName}
 │ Time : ${time}
@@ -35,8 +35,8 @@ bot.addCommand(
 │ Ram : ${getRam()}
 │ Uptime : ${getUptime('t')}
 │ Platform : ${getPlatform()}
-╰────────────────
-╭────────────────
+╰❉ ╤╤╤╤ ✿ ╤╤╤╤ ❉
+╭❉ ╤╤╤╤ ✿ ╤╤╤╤ ❉
 `
     sorted.map(async (command, i) => {
       if (command.dontAddCommandList === false && command.pattern !== undefined) {
@@ -47,7 +47,7 @@ bot.addCommand(
       }
     })
 
-    CMD_HELP += `╰────────────────`
+    CMD_HELP += `╰❉ ╤╤╤╤ ✿ ╤╤╤╤ ❉`
     return await message.send('```' + CMD_HELP + '```')
   }
 )
@@ -90,26 +90,26 @@ bot.addCommand(
       }
     })
     const [date, time] = getDate()
-    let msg = `\`\`\`╭═══ LEVANTER ═══⊷
-┃❃╭──────────────
-┃❃│ Prefix : ${ctx.PREFIX}
-┃❃│ User : ${message.pushName}
-┃❃│ Time : ${time}
-┃❃│ Day : ${date.toLocaleString('en', { weekday: 'long' })}
-┃❃│ Date : ${date.toLocaleDateString('hi')}
-┃❃│ Version : ${ctx.VERSION}
-┃❃│ Plugins : ${ctx.pluginsCount}
-┃❃│ Ram : ${getRam()}
-┃❃│ Uptime : ${getUptime('t')}
-┃❃│ Platform : ${getPlatform()}
-┃❃╰───────────────
-╰═════════════════⊷\`\`\`\n`
+    let msg = `\`\`\`❉ ╤╤╤╤𝐄𝐋𝐈𝐉𝐀╤╤╤╤ ❉
+┃🇰🇪╭❉ ╤╤╤╤ ✿ ╤╤╤╤ ❉
+┃🇰🇪│ Prefix : ${ctx.PREFIX}
+┃🇰🇪│ User : ${message.pushName}
+┃🇰🇪│ Time : ${time}
+┃🇰🇪│ Day : ${date.toLocaleString('en', { weekday: 'long' })}
+┃🇰🇪│ Date : ${date.toLocaleDateString('hi')}
+┃🇰🇪│ Version : ${ctx.VERSION}
+┃🇰🇪│ Plugins : ${ctx.pluginsCount}
+┃🇰🇪│ Ram : ${getRam()}
+┃🇰🇪│ Uptime : ${getUptime('t')}
+┃🇰🇪│ Platform : ${getPlatform()}
+┃🇰🇪╰───────────────
+╰❉ ╤╤╤╤ ✿ ╤╤╤╤ ❉\`\`\`\n`
 
     if (match && commands[match]) {
       msg += ` ╭─❏ ${textToStylist(match.toLowerCase(), 'smallcaps')} ❏\n`
       for (const plugin of commands[match])
         msg += ` │ ${textToStylist(plugin.toUpperCase(), 'mono')}\n`
-      msg += ` ╰─────────────────`
+      msg += ` ╰❉ ╤╤╤╤ ✿ ╤╤╤╤ ❉`
 
       return await message.send(msg)
     }
@@ -117,7 +117,7 @@ bot.addCommand(
       msg += ` ╭─❏ ${textToStylist(command.toLowerCase(), 'smallcaps')} ❏\n`
       for (const plugin of commands[command])
         msg += ` │ ${textToStylist(plugin.toUpperCase(), 'mono')}\n`
-      msg += ` ╰─────────────────\n`
+      msg += ` ╰❉ ╤╤╤╤ ✿ ╤╤╤╤ ❉\n`
     }
     await message.send(msg.trim())
   }
